@@ -8,9 +8,9 @@ namespace Interfaces
 {
     class ChildClass : BaseClass, Interface2
     {
-        public override void I2Method()
+        public override void I1Method()
         {
-            // base.I2Method();
+            // base.I1Method();
             Console.WriteLine("I1 method in child");
         }
 

@@ -8,7 +8,7 @@ namespace Interfaces
 {
     class BaseClass : Interface1
     {
-        public virtual void I2Method()
+        public virtual void I1Method()
         {
             Console.WriteLine("I1 method");
         }
